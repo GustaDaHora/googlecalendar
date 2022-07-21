@@ -1,0 +1,98 @@
+/* Universl style*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: auto 1fr;
+}
+
+caption {
+    font: bolder 4.5vh Arial, Helvetica, sans-serif;
+    padding: 4vh;
+}
+
+td {
+    padding: 1.5vh;
+}
+
+img {
+    filter: invert(95%) sepia(3%) saturate(408%) hue-rotate(71deg) brightness(105%) contrast(94%);
+    width: 7vh;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+/* Header style*/
+header {
+    display: flex;
+    flex-grow: 1vh;
+    margin: 0;
+    color: #f0f7f0;
+    font: bolder 4.5vh Arial, Helvetica, sans-serif;
+    padding: 2vh;
+    background-color: #3a8043;
+}
+
+img#config {
+    position: absolute;
+    right: 4vh;
+    top: .8vh;
+}
+
+img#home {
+    position: absolute;
+    right: 27vh;
+    top: .8vh;
+}
+
+img#log {
+    position: absolute;
+    right: 16vh;
+    top: .8vh;
+}
+
+
+/* Section style*/
+section {
+    background-color: #f0f7f0;
+    padding: 8vh 2.5vh;
+}
+
+.sema {
+    background-color: #929f92;
+    border-radius: 2px;
+}
+
+p {
+    font-size: 3vh;
+}
+
+/* Main style*/
+.tablehead {
+    padding: 2vh 11vh;
+    border: 1px solid black;
+}
+
+.hours,
+.horas {
+    padding: 5vh;
+    border: 1px solid black;
+}
+
+div#container {
+    margin-left: 1vh;
+    overflow-y: auto;
+    height: 90vh;
+}
+
+.horas {
+    padding: 5vh 1.5vh;
+    font-weight: bold;
+}
