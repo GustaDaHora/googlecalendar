@@ -62,7 +62,7 @@ img#log {
 /* Section style*/
 section {
     background-color: #f0f7f0;
-    padding: 8vh 2.5vh;
+    padding: 2vh 2.5vh;
 }
 
 .sema {
@@ -72,6 +72,11 @@ section {
 
 p {
     font-size: 3vh;
+}
+
+input#week {
+    padding: 2vh 4vh;
+    font: bold 3vh Arial, Helvetica, sans-serif;
 }
 
 /* Main style*/
@@ -86,10 +91,11 @@ p {
     border: 1px solid black;
 }
 
-div#container {
+div {
     margin-left: 1vh;
     overflow-y: auto;
     height: 90vh;
+    display: none;
 }
 
 .horas {

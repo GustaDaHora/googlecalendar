@@ -16,7 +16,8 @@
     <main>
         <section>
             <table>
-                <caption>October 2022</caption>
+                <caption><input type="week" name="week" id="week" min="2022-W40" max="2023-W45" onchange="weekchosen()">
+                </caption>
                 <tr>
                     <th>Sun</th>
                     <th>Mon</th>
@@ -35,25 +36,25 @@
                     <td class="past">30</td>
                     <td>01</td>
                 </tr>
-                <tr>
+                <tr class="sema1">
                     <td>02</td>
-                    <td class="sema">03</td>
-                    <td class="sema">04</td>
-                    <td class="sema">05</td>
-                    <td class="sema">06</td>
-                    <td class="sema">07</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
                     <td>08</td>
                 </tr>
-                <tr>
+                <tr class="sema2">
                     <td>09</td>
                     <td>10</td>
                     <td>11</td>
                     <td>12</td>
+                    <td>15</td>
                     <td>13</td>
                     <td>14</td>
-                    <td>15</td>
                 </tr>
-                <tr>
+                <tr class="sema3">
                     <td>16</td>
                     <td>17</td>
                     <td>18</td>
@@ -62,7 +63,7 @@
                     <td>21</td>
                     <td>22</td>
                 </tr>
-                <tr>
+                <tr class="sema4">
                     <td>23</td>
                     <td>24</td>
                     <td>25</td>
@@ -71,21 +72,22 @@
                     <td>28</td>
                     <td>29</td>
                 </tr>
-                <tr>
+                <tr class="sema5">
                     <td>30</td>
                     <td>31</td>
-                    <td class="past">01</td>
-                    <td class="past">02</td>
-                    <td class="past">03</td>
-                    <td class="past">04</td>
-                    <td class="past">05</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
                 </tr>
             </table>
             <p><input type="radio" id="Word1" class="select" name="color"><label for="Word1">Word1</label></p>
             <p><input type="radio" id="Word2" class="select" name="color"><label for="Word2">Word2</label></p>
             <p><input type="radio" id="Word3" class="select" name="color"><label for="Word3">Word3</label></p>
+            <form action=""><input type="submit"></form>
         </section>
-        <div id="container">
+        <div id="week40">
             <table>
                 <caption>October</caption>
                 <thead>
@@ -180,7 +182,484 @@
                 </tbody>
             </table>
         </div>
+        <div id="week41">
+            <table>
+                <caption>October</caption>
+                <thead>
+                    <th class="tablehead"></th>
+                    <th class="tablehead">Mon<br>10</th>
+                    <th class="tablehead">Tue<br>11</th>
+                    <th class="tablehead">Wed<br>12</th>
+                    <th class="tablehead">Thu<br>13</th>
+                    <th class="tablehead">Fri<br>14</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="horas">7AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">8AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">9AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">10AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">11AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">1PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">2PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">3PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">4PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">5PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="week42">
+            <table>
+                <caption>October</caption>
+                <thead>
+                    <th class="tablehead"></th>
+                    <th class="tablehead">Mon<br>17</th>
+                    <th class="tablehead">Tue<br>18</th>
+                    <th class="tablehead">Wed<br>19</th>
+                    <th class="tablehead">Thu<br>20</th>
+                    <th class="tablehead">Fri<br>21</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="horas">7AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">8AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">9AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">10AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">11AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">1PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">2PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">3PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">4PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">5PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="week43">
+            <table>
+                <caption>October</caption>
+                <thead>
+                    <th class="tablehead"></th>
+                    <th class="tablehead">Mon<br>24</th>
+                    <th class="tablehead">Tue<br>25</th>
+                    <th class="tablehead">Wed<br>26</th>
+                    <th class="tablehead">Thu<br>27</th>
+                    <th class="tablehead">Fri<br>28</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="horas">7AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">8AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">9AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">10AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">11AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">1PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">2PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">3PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">4PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">5PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="week44">
+            <table>
+                <caption>October</caption>
+                <thead>
+                    <th class="tablehead"></th>
+                    <th class="tablehead">Mon<br>31</th>
+                    <th class="tablehead">Tue<br>32</th>
+                    <th class="tablehead">Wed<br>33</th>
+                    <th class="tablehead">Thu<br>34</th>
+                    <th class="tablehead">Fri<br>35</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="horas">7AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">8AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">9AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">10AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">11AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">1PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">2PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">3PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">4PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">5PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="week45">
+            <table>
+                <caption>October</caption>
+                <thead>
+                    <th class="tablehead"></th>
+                    <th class="tablehead">Mon<br>07</th>
+                    <th class="tablehead">Tue<br>08</th>
+                    <th class="tablehead">Wed<br>09</th>
+                    <th class="tablehead">Thu<br>10</th>
+                    <th class="tablehead">Fri<br>11</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="horas">7AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">8AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">9AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">10AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">11AM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">1PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">2PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">3PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">4PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                    <tr>
+                        <td class="horas">5PM</td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                        <td class="hours"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
     </main>
 </body>
+<script src="sript.js" type="text/javascript"></script>
 
 </html>
